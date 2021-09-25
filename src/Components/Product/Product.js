@@ -16,7 +16,7 @@ const Products = (props) => {
         <div className="description-container">
           <div className="details">
             <p className="price">${price}</p>
-            <p>only {stock} left in stock - order soon</p>
+            <p>only {stock} left in stock - order soon!</p>
             <button
               className="purchase-btn"
               onClick={() => props.addToCart(props.Product)}
