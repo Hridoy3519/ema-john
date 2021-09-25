@@ -1,0 +1,36 @@
+h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.item-count {
+  text-align: center;
+  font-size: 18px;
+}
+
+.shopping-details p {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.shopping-details {
+  width: 70%;
+}
+
+.amounts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shopping-details .total-amount {
+  color: #b12704;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.review-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,51 @@
+.product-container {
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding: 5px 0;
+}
+
+img {
+  width: 250px;
+}
+.product-description {
+  margin-left: 20px;
+  width: 100%;
+}
+
+.product-name {
+  font-size: 18px;
+  color: blue;
+  font-weight: 400;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.purchase-btn {
+  outline: none;
+  border: none;
+  background-color: goldenrod;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.description-container {
+  display: flex;
+  width: 100%;
+}
+
+.details {
+  width: 40%;
+}
+
+.features {
+  width: 60%;
+}
+
+.fa {
+  color: goldenrod;
+  font-size: 18px;
+}

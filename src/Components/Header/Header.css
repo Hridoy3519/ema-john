@@ -1,0 +1,33 @@
+.banner {
+  text-align: center;
+}
+
+img {
+  width: 300px;
+}
+
+nav {
+  background-color: black;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  line-height: 40px;
+  font-size: 20px;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: gray;
+}
